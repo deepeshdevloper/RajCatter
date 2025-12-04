@@ -5,7 +5,6 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "wouter";
 import { useSEO } from "@/hooks/use-seo";
 import { testimonialsData } from "@/data/testimonials";
-import ThreeDShowcase from "@/components/3d/ThreeDShowcase";
 import EventCostCalculator from "@/components/features/EventCostCalculator";
 import InteractiveTestimonials from "@/components/features/InteractiveTestimonials";
 import FoodCounterSimulator from "@/components/features/FoodCounterSimulator";
@@ -124,18 +123,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 3D Showcase Section */}
-      <section className="py-20 bg-black border-y border-gold/10">
-        <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between mb-8">
-             <h2 className="text-3xl font-serif font-bold text-white">Experience <span className="text-gold">Virtual Luxury</span></h2>
-             <div className="flex items-center gap-2 text-gold/70 text-sm">
-               <Cube size={16} /> Interactive 3D
-             </div>
-          </div>
-          <ThreeDShowcase />
-        </div>
-      </section>
 
       {/* Services Preview */}
       <section className="py-24 bg-secondary/30">

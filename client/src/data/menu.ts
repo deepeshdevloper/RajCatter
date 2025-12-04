@@ -1,92 +1,152 @@
+
 export const menuData = {
   royal: {
-    label: "Royal Indian",
-    description: "A majestic spread of authentic Indian delicacies fit for kings.",
+    label: "Royal Indian Menu",
+    description: "Authentic flavors fit for kings. A majestic spread of authentic Indian delicacies.",
     items: [
-      { id: "ri1", name: "Shahi Paneer", description: "Cottage cheese in rich cashew & tomato gravy", veg: true, allergens: ["Dairy", "Nuts"], price: 350, image: "/assets/food/shahi-paneer.jpg" },
-      { id: "ri2", name: "Paneer Lababdar", description: "Cottage cheese in a creamy, spicy tomato sauce", veg: true, allergens: ["Dairy"], price: 360, image: "/assets/food/paneer-lababdar.jpg" },
-      { id: "ri3", name: "Malai Kofta", description: "Fried potato and paneer balls in creamy white gravy", veg: true, allergens: ["Dairy", "Nuts", "Gluten"], price: 380, image: "/assets/food/malai-kofta.jpg" },
-      { id: "ri4", name: "Dal Makhani", description: "Slow-cooked black lentils with butter and cream", veg: true, allergens: ["Dairy"], price: 300, image: "/assets/food/dal-makhani.jpg" },
-      { id: "ri5", name: "Dal Tadka", description: "Yellow lentils tempered with ghee and spices", veg: true, allergens: [], price: 250, image: "/assets/food/dal-tadka.jpg" },
-      { id: "ri6", name: "Jeera Rice", description: "Basmati rice flavored with cumin seeds", veg: true, allergens: [], price: 180, image: "/assets/food/jeera-rice.jpg" },
-      { id: "ri7", name: "Veg Pulao", description: "Aromatic rice cooked with mixed vegetables", veg: true, allergens: [], price: 220, image: "/assets/food/veg-pulao.jpg" },
-      { id: "ri8", name: "Hyderabadi Biryani", description: "Spicy and fragrant rice dish with vegetables", veg: true, allergens: ["Dairy"], price: 350, image: "/assets/food/biryani.jpg" },
-      { id: "ri9", name: "Butter Naan", description: "Soft Indian bread topped with butter", veg: true, allergens: ["Gluten", "Dairy"], price: 60, image: "/assets/food/butter-naan.jpg" },
-      { id: "ri10", name: "Missi Roti", description: "Spiced gram flour bread", veg: true, allergens: ["Gluten"], price: 50, image: "/assets/food/missi-roti.jpg" },
-      { id: "ri11", name: "Stuffed Kulcha", description: "Leavened bread stuffed with spicy potatoes", veg: true, allergens: ["Gluten", "Dairy"], price: 80, image: "/assets/food/kulcha.jpg" }
+      { name: "Shahi Paneer", description: "Cottage cheese in rich cashew & tomato gravy" },
+      { name: "Paneer Lababdar", description: "Cottage cheese in a creamy, spicy tomato sauce" },
+      { name: "Malai Kofta", description: "Fried potato and paneer balls in creamy white gravy" },
+      { name: "Dal Makhani", description: "Slow-cooked black lentils with butter and cream" },
+      { name: "Dal Tadka", description: "Yellow lentils tempered with ghee and spices" },
+      { name: "Jeera Rice", description: "Basmati rice flavored with cumin seeds" },
+      { name: "Veg Pulao", description: "Aromatic rice cooked with mixed vegetables" },
+      { name: "Hyderabadi Biryani", description: "Spicy and fragrant rice dish with vegetables" },
+      { name: "Butter Naan", description: "Soft Indian bread topped with butter" },
+      { name: "Missi Roti", description: "Spiced gram flour bread" },
+      { name: "Stuffed Kulcha", description: "Leavened bread stuffed with spicy potatoes" },
+      { name: "Palak Paneer", description: "Cottage cheese cubes in spinach gravy" },
+      { name: "Aloo Gobi Adraki", description: "Potatoes and cauliflower with ginger" },
+      { name: "Bhindi Masala", description: "Okra stir-fry with spices" },
+      { name: "Chole Bhature", description: "Spiced chickpeas with fried bread" },
+      { name: "Rajma Chawal", description: "Kidney beans curry with steamed rice" },
+      { name: "Dum Aloo Kashmiri", description: "Potatoes in spicy yogurt gravy" },
+      { name: "Navratan Korma", description: "Mixed vegetables in rich creamy sauce" },
+      { name: "Tandoori Roti", description: "Whole wheat bread baked in clay oven" },
+      { name: "Lachha Paratha", description: "Layered whole wheat flatbread" }
     ]
   },
   mughlai: {
     label: "Mughlai Special",
-    description: "Rich and aromatic dishes from the royal Mughal kitchens.",
+    description: "Rich, creamy, and aromatic delicacies from the royal Mughal kitchens.",
     items: [
-      { id: "ms1", name: "Mutton Rogan Josh", description: "Tender mutton cooked in aromatic Kashmiri spices", veg: false, allergens: [], price: 550, image: "/assets/food/rogan-josh.jpg" },
-      { id: "ms2", name: "Chicken Korma", description: "Chicken simmered in a creamy yogurt and nut sauce", veg: false, allergens: ["Dairy", "Nuts"], price: 450, image: "/assets/food/chicken-korma.jpg" },
-      { id: "ms3", name: "Galouti Kebab", description: "Melt-in-mouth minced meat kebabs", veg: false, allergens: [], price: 480, image: "/assets/food/galouti.jpg" },
-      { id: "ms4", name: "Seekh Kebab", description: "Minced meat skewers grilled in tandoor", veg: false, allergens: [], price: 420, image: "/assets/food/seekh.jpg" },
-      { id: "ms5", name: "Chicken Tikka Masala", description: "Roasted chicken chunks in spicy sauce", veg: false, allergens: ["Dairy"], price: 460, image: "/assets/food/tikka-masala.jpg" },
-      { id: "ms6", name: "Mutton Biryani", description: "Layered rice and meat dish with saffron", veg: false, allergens: ["Dairy"], price: 500, image: "/assets/food/mutton-biryani.jpg" },
-      { id: "ms7", name: "Nargisi Kofta", description: "Boiled eggs wrapped in minced meat and fried", veg: false, allergens: ["Egg"], price: 400, image: "/assets/food/nargisi.jpg" },
-      { id: "ms8", name: "Nalli Nihari", description: "Slow-cooked mutton shank stew", veg: false, allergens: [], price: 600, image: "/assets/food/nihari.jpg" }
+      { name: "Mutton Rogan Josh", description: "Tender mutton cooked in aromatic Kashmiri spices" },
+      { name: "Chicken Korma", description: "Chicken simmered in a creamy yogurt and nut sauce" },
+      { name: "Galouti Kebab", description: "Melt-in-mouth minced meat kebabs" },
+      { name: "Seekh Kebab", description: "Minced meat skewers grilled in tandoor" },
+      { name: "Chicken Tikka Masala", description: "Roasted chicken chunks in spicy sauce" },
+      { name: "Mutton Biryani", description: "Layered rice and meat dish with saffron" },
+      { name: "Nargisi Kofta", description: "Boiled eggs wrapped in minced meat and fried" },
+      { name: "Nalli Nihari", description: "Slow-cooked mutton shank stew" },
+      { name: "Reshmi Kebab", description: "Silky textured chicken kebabs" },
+      { name: "Tandoori Chicken", description: "Whole chicken marinated and roasted" },
+      { name: "Murgh Musallam", description: "Whole chicken stuffed with eggs and spices" },
+      { name: "Shami Kebab", description: "Minced meat patties with spices" }
     ]
   },
   continental: {
     label: "Continental",
     description: "Classic European flavors for a sophisticated palate.",
     items: [
-      { id: "cn1", name: "Alfredo Pasta", description: "Pasta in creamy white cheese sauce", veg: true, allergens: ["Gluten", "Dairy"], price: 350, image: "/assets/food/alfredo.jpg" },
-      { id: "cn2", name: "Arrabbiata Pasta", description: "Pasta in spicy tomato garlic sauce", veg: true, allergens: ["Gluten"], price: 320, image: "/assets/food/arrabbiata.jpg" },
-      { id: "cn3", name: "Garlic Bread", description: "Toasted bread with garlic butter and herbs", veg: true, allergens: ["Gluten", "Dairy"], price: 150, image: "/assets/food/garlic-bread.jpg" },
-      { id: "cn4", name: "Russian Salad", description: "Diced vegetables and fruits in mayonnaise", veg: true, allergens: ["Egg"], price: 200, image: "/assets/food/russian-salad.jpg" },
-      { id: "cn5", name: "Waldorf Salad", description: "Apples, celery, walnuts, and grapes in mayo", veg: true, allergens: ["Nuts", "Egg"], price: 250, image: "/assets/food/waldorf.jpg" },
-      { id: "cn6", name: "Baked Corn & Spinach", description: "Creamy spinach and corn baked with cheese", veg: true, allergens: ["Dairy"], price: 300, image: "/assets/food/baked-corn.jpg" },
-      { id: "cn7", name: "Lasagna", description: "Layered pasta with sauce, cheese, and vegetables", veg: true, allergens: ["Gluten", "Dairy"], price: 400, image: "/assets/food/lasagna.jpg" }
+      { name: "Penne Arrabbiata", description: "Pasta in spicy tomato garlic sauce" },
+      { name: "Spaghetti Aglio e Olio", description: "Pasta with garlic and olive oil" },
+      { name: "Alfredo Pasta", description: "Pasta in creamy white cheese sauce" },
+      { name: "Garlic Bread", description: "Toasted bread with garlic butter and herbs" },
+      { name: "Russian Salad", description: "Diced vegetables and fruits in mayonnaise" },
+      { name: "Waldorf Salad", description: "Apples, celery, walnuts, and grapes in mayo" },
+      { name: "Baked Corn & Spinach", description: "Creamy spinach and corn baked with cheese" },
+      { name: "Vegetable Lasagna", description: "Layered pasta with sauce, cheese, and vegetables" },
+      { name: "Grilled Fish Lemon Butter", description: "Fish fillet with tangy lemon butter sauce" },
+      { name: "Chicken Stroganoff", description: "Chicken in creamy mushroom sauce" },
+      { name: "Sautéed Vegetables", description: "Fresh seasonal vegetables tossed in butter" },
+      { name: "Bruschetta", description: "Grilled bread topped with tomato and basil" },
+      { name: "Mushroom Risotto", description: "Creamy Italian rice dish with mushrooms" },
+      { name: "Potato Au Gratin", description: "Sliced potatoes baked in cream and cheese" }
     ]
   },
   south: {
     label: "South Indian",
-    description: "Authentic flavors from the southern states of India.",
+    description: "Authentic traditional tastes from the south.",
     items: [
-      { id: "si1", name: "Masala Dosa", description: "Crispy rice crepe filled with spiced potatoes", veg: true, allergens: [], price: 150, image: "/assets/food/dosa.jpg" },
-      { id: "si2", name: "Idli Sambar", description: "Steamed rice cakes with lentil stew", veg: true, allergens: [], price: 120, image: "/assets/food/idli.jpg" },
-      { id: "si3", name: "Medu Vada", description: "Crispy lentil donuts", veg: true, allergens: [], price: 140, image: "/assets/food/vada.jpg" },
-      { id: "si4", name: "Uttapam", description: "Thick rice pancake with vegetable toppings", veg: true, allergens: [], price: 160, image: "/assets/food/uttapam.jpg" },
-      { id: "si5", name: "Pongal", description: "Savory rice and lentil porridge", veg: true, allergens: ["Dairy", "Nuts"], price: 180, image: "/assets/food/pongal.jpg" }
+      { name: "Masala Dosa", description: "Crispy rice crepe filled with spiced potatoes" },
+      { name: "Idli Sambar", description: "Steamed rice cakes with lentil stew" },
+      { name: "Medu Vada", description: "Crispy lentil donuts" },
+      { name: "Uttapam", description: "Thick rice pancake with vegetable toppings" },
+      { name: "Pongal", description: "Savory rice and lentil porridge" },
+      { name: "Rava Dosa", description: "Crispy semolina crepe" },
+      { name: "Curd Rice", description: "Yogurt mixed with rice and tempering" },
+      { name: "Mysore Masala Dosa", description: "Dosa with spicy red chutney" },
+      { name: "Appam with Stew", description: "Lacy pancakes with coconut milk stew" },
+      { name: "Lemon Rice", description: "Tangy rice flavored with lemon" }
     ]
   },
   snacks: {
-    label: "Snacks & Chaat",
+    label: "Snacks & Starters",
     description: "Irresistible street food and appetizers.",
     items: [
-      { id: "sn1", name: "Paneer Tikka", description: "Marinated cottage cheese grilled in tandoor", veg: true, allergens: ["Dairy"], price: 280, image: "/assets/food/paneer-tikka.jpg" },
-      { id: "sn2", name: "Hara Bhara Kebab", description: "Spinach and green pea patties", veg: true, allergens: [], price: 240, image: "/assets/food/hara-bhara.jpg" },
-      { id: "sn3", name: "Spring Rolls", description: "Crispy fried rolls with vegetable filling", veg: true, allergens: ["Gluten"], price: 220, image: "/assets/food/spring-rolls.jpg" },
-      { id: "sn4", name: "Dahi Bhalla", description: "Lentil dumplings in yogurt with chutneys", veg: true, allergens: ["Dairy"], price: 150, image: "/assets/food/dahi-bhalla.jpg" },
-      { id: "sn5", name: "Papdi Chaat", description: "Crispy wafers with potatoes, yogurt, and chutneys", veg: true, allergens: ["Gluten", "Dairy"], price: 140, image: "/assets/food/papdi-chaat.jpg" },
-      { id: "sn6", name: "Pani Puri", description: "Hollow balls filled with spicy water", veg: true, allergens: ["Gluten"], price: 100, image: "/assets/food/pani-puri.jpg" }
+      { name: "Paneer Tikka", description: "Marinated cottage cheese grilled in tandoor" },
+      { name: "Hara Bhara Kebab", description: "Spinach and green pea patties" },
+      { name: "Spring Rolls", description: "Crispy fried rolls with vegetable filling" },
+      { name: "Dahi Bhalla", description: "Lentil dumplings in yogurt with chutneys" },
+      { name: "Papdi Chaat", description: "Crispy wafers with potatoes, yogurt, and chutneys" },
+      { name: "Pani Puri", description: "Hollow balls filled with spicy water" },
+      { name: "Paneer 65", description: "Spicy deep-fried paneer cubes" },
+      { name: "Dahi Ke Sholay", description: "Bread rolls filled with hung curd" },
+      { name: "Honey Chilli Potato", description: "Crispy potatoes in sweet and spicy sauce" },
+      { name: "Chicken Lollipop", description: "Fried chicken winglets" },
+      { name: "Fish Fingers", description: "Breaded and fried fish strips" },
+      { name: "Mutton Shammi Kebab", description: "Minced meat patties with spices" },
+      { name: "Veg Manchurian", description: "Vegetable balls in soy sauce" },
+      { name: "Crispy Corn", description: "Fried corn kernels with spices" }
     ]
   },
   live: {
     label: "Live Counters",
     description: "Interactive food stations prepared fresh before your eyes.",
     items: [
-      { id: "lc1", name: "Live Dosa Station", description: "Hot dosas with variety of fillings", veg: true, allergens: [], price: 5000, image: "/assets/food/live-dosa.jpg" },
-      { id: "lc2", name: "Live Pasta Station", description: "Pasta tossed in sauce of your choice", veg: true, allergens: ["Gluten", "Dairy"], price: 6000, image: "/assets/food/live-pasta.jpg" },
-      { id: "lc3", name: "Live Chaat Counter", description: "Assorted fresh chaat items", veg: true, allergens: ["Dairy", "Gluten"], price: 5500, image: "/assets/food/live-chaat.jpg" },
-      { id: "lc4", name: "Tandoor Live", description: "Fresh breads and kebabs from clay oven", veg: true, allergens: ["Gluten"], price: 7000, image: "/assets/food/live-tandoor.jpg" },
-      { id: "lc5", name: "Jalebi Live", description: "Hot, crispy, syrupy spirals", veg: true, allergens: ["Gluten", "Dairy"], price: 4500, image: "/assets/food/live-jalebi.jpg" }
+      { name: "Dosa Live", description: "Hot dosas made to order with variety of fillings" },
+      { name: "Chaat Live", description: "Pani puri, papdi chaat, dahi bhalla, aloo tikki" },
+      { name: "Pasta Live", description: "Customized pasta with choice of red, white or mix sauce" },
+      { name: "Tandoor Live", description: "Fresh breads and kebabs from the clay oven" },
+      { name: "Jalebi Live", description: "Hot crispy jalebis dipped in saffron syrup" },
+      { name: "Mongolian Stir Fry", description: "Noodles and veggies tossed on high heat" },
+      { name: "Pizza Live", description: "Wood-fired thin crust pizzas" },
+      { name: "Dimsum Station", description: "Steamed dumplings with dips" }
     ]
   },
   dessert: {
-    label: "Desserts",
-    description: "Sweet endings to a perfect meal.",
+    label: "Desserts Paradise",
+    description: "Sweet endings to your perfect meal.",
     items: [
-      { id: "ds1", name: "Gulab Jamun", description: "Deep-fried milk solids in sugar syrup", veg: true, allergens: ["Dairy", "Gluten"], price: 120, image: "/assets/food/gulab-jamun.jpg" },
-      { id: "ds2", name: "Rasmalai", description: "Cottage cheese patties in thickened milk", veg: true, allergens: ["Dairy", "Nuts"], price: 140, image: "/assets/food/rasmalai.jpg" },
-      { id: "ds3", name: "Gajar Ka Halwa", description: "Carrot pudding with nuts", veg: true, allergens: ["Dairy", "Nuts"], price: 150, image: "/assets/food/gajar-halwa.jpg" },
-      { id: "ds4", name: "Moong Dal Halwa", description: "Rich lentil sweet dish", veg: true, allergens: ["Dairy", "Nuts"], price: 160, image: "/assets/food/moong-dal.jpg" },
-      { id: "ds5", name: "Ice Cream Counter", description: "Variety of ice cream flavors", veg: true, allergens: ["Dairy"], price: 100, image: "/assets/food/ice-cream.jpg" },
-      { id: "ds6", name: "Brownie with Ice Cream", description: "Warm brownie with cold vanilla scoop", veg: true, allergens: ["Dairy", "Gluten", "Egg"], price: 180, image: "/assets/food/brownie.jpg" }
+      { name: "Gulab Jamun", description: "Deep-fried milk solids in sugar syrup" },
+      { name: "Rasmalai", description: "Cottage cheese patties in thickened milk" },
+      { name: "Gajar Ka Halwa", description: "Carrot pudding with dry fruits" },
+      { name: "Moong Dal Halwa", description: "Rich lentil sweet dish with ghee" },
+      { name: "Ice Cream Counter", description: "Assorted flavors with toppings" },
+      { name: "Brownie with Ice Cream", description: "Warm brownie with cold vanilla scoop" },
+      { name: "Kheer", description: "Rice pudding with cardamom" },
+      { name: "Jalebi Rabri", description: "Crispy jalebi with thickened milk" },
+      { name: "Fruit Trifle", description: "Layered dessert with fruits and custard" },
+      { name: "Kulfi Falooda", description: "Traditional Indian ice cream with noodles" },
+      { name: "Shahi Tukda", description: "Fried bread slices soaked in sweetened milk" }
+    ]
+  },
+  beverages: {
+    label: "Beverages & Mocktails",
+    description: "Refreshing drinks for everyone.",
+    items: [
+      { name: "Virgin Mojito", description: "Mint and lime cooler" },
+      { name: "Blue Lagoon", description: "Blue curaçao lemonade" },
+      { name: "Fresh Lime Soda", description: "Sweet or salty lime water" },
+      { name: "Masala Chai", description: "Spiced milk tea" },
+      { name: "Filter Coffee", description: "South Indian style coffee" },
+      { name: "Mango Lassi", description: "Yogurt drink with mango pulp" },
+      { name: "Thandai", description: "Spiced milk drink with nuts" },
+      { name: "Aam Panna", description: "Raw mango cooler" },
+      { name: "Fruit Punch", description: "Mixed fruit juice mocktail" },
+      { name: "Iced Tea", description: "Chilled tea with lemon or peach" },
+      { name: "Badam Milk", description: "Almond flavored milk" },
+      { name: "Jaljeera", description: "Spicy cumin water" }
     ]
   }
 };

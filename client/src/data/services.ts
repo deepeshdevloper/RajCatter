@@ -4,89 +4,89 @@ export const servicesData = [
   {
     icon: ChefHat,
     title: "Luxury Catering",
-    desc: "A royal catering experience with multi-cuisine menus prepared by our master chefs. We specialize in authentic Indian, Mughlai, Continental, and Pan-Asian cuisines, served with impeccable style.",
-    features: ["Customized Menus", "Premium Cutlery", "Uniformed Staff", "Live Stations"],
+    desc: "A royal catering experience with multi-cuisine menus designed to impress the most discerning palates.",
+    features: ["Multi-Cuisine Menus", "Uniformed Waitstaff", "Premium Cutlery", "Elegant Dining Setup"],
     packages: [
-      { name: "Silver", price: "₹800/plate", items: "2 Starters, 4 Mains, 2 Desserts" },
-      { name: "Gold", price: "₹1200/plate", items: "4 Starters, 6 Mains, 3 Desserts, Live Counter" },
-      { name: "Platinum", price: "₹1800/plate", items: "6 Starters, 8 Mains, 4 Desserts, 3 Live Counters" }
+      { name: "Silver", price: "Starts @ ₹800", items: "Essential Luxury" },
+      { name: "Gold", price: "Starts @ ₹1200", items: "Premium Spread" },
+      { name: "Royal", price: "Starts @ ₹1800", items: "Ultimate Experience" }
     ]
   },
   {
     icon: Sparkles,
     title: "Wedding Decoration",
-    desc: "Transform your wedding venue into a palace. We provide complete decor solutions including mandap design, floral arrangements, stage setup, entry gates, and ambient lighting.",
-    features: ["Theme Based Decor", "Floral Artistry", "Lighting Design", "Photo Booths"],
+    desc: "Mandap, stage, entry gate, photo booth, flower décor, lighting that creates a fairytale setting.",
+    features: ["Floral Artistry", "Theme Lighting", "Stage Design", "Grand Entryways"],
     packages: [
-      { name: "Essential", price: "₹50,000+", items: "Stage, Entry, Basic Lighting" },
-      { name: "Premium", price: "₹1.5 Lakh+", items: "Full Floral, Themed Mandap, Ambient Lights" },
-      { name: "Royal", price: "₹3 Lakh+", items: "Designer Sets, Imported Flowers, Special Effects" }
+      { name: "Standard", price: "Custom", items: "Beautiful Basics" },
+      { name: "Premium", price: "Custom", items: "Thematic Design" },
+      { name: "Luxury", price: "Custom", items: "Grand Scale" }
     ]
   },
   {
     icon: Users,
-    title: "Complete Event Organising",
-    desc: "From planning to execution, we handle everything. Our event managers ensure a seamless flow so you can enjoy your special day without any stress.",
-    features: ["Vendor Management", "Timeline Planning", "Guest Hospitality", "Logistics"],
+    title: "Event Organising",
+    desc: "Complete event management from planning to execution, ensuring a stress-free celebration.",
+    features: ["Logistics Handling", "Vendor Coordination", "Timeline Management", "On-site Support"],
     packages: [
-      { name: "Coordination", price: "₹25,000", items: "On-day Management" },
-      { name: "Planning", price: "₹50,000", items: "Vendor Booking + Coordination" },
-      { name: "Full Service", price: "₹1 Lakh+", items: "End-to-End Execution" }
+      { name: "Coordination", price: "Fixed Fee", items: "Day-of Mgmt" },
+      { name: "Planning", price: "Fixed Fee", items: "Full Planning" },
+      { name: "Turnkey", price: "Custom", items: "All Inclusive" }
     ]
   },
   {
     icon: Utensils,
     title: "Live Food Counters",
-    desc: "Add an interactive element to your dining with our live food stations. Watch our chefs prepare fresh Dosa, Pasta, Chaat, BBQ, Tandoor, and Jalebi right before your eyes.",
-    features: ["Interactive Chefs", "Fresh Preparation", "Diverse Cuisines", "Visual Appeal"],
+    desc: "Interactive stations serving Dosa, pasta, chaat, Chinese, BBQ, tandoor, and desserts fresh to your guests.",
+    features: ["Interactive Cooking", "Fresh Preparation", "Entertainment", "Customizable Options"],
     packages: [
-      { name: "Basic", price: "₹15,000", items: "2 Live Stations" },
-      { name: "Standard", price: "₹25,000", items: "4 Live Stations" },
-      { name: "Grand", price: "₹40,000", items: "6+ Live Stations" }
+      { name: "Basic", price: "₹15k+", items: "2 Stations" },
+      { name: "Standard", price: "₹25k+", items: "4 Stations" },
+      { name: "Grand", price: "₹40k+", items: "6+ Stations" }
     ]
   },
   {
     icon: Building,
     title: "Corporate Catering",
-    desc: "Impress your clients and employees with our professional corporate catering services. Perfect for seminars, conferences, office parties, and executive luncheons.",
-    features: ["Professional Service", "Timely Delivery", "Dietary Options", "Elegant Setup"],
+    desc: "Professional buffet setups for seminars, events, and conferences with punctual service.",
+    features: ["Punctual Service", "Efficient Setup", "High-Profile Menus", "Professional Staff"],
     packages: [
-      { name: "Lunch Box", price: "₹350/box", items: "Meal Trays" },
-      { name: "Buffet", price: "₹650/head", items: "Full Spread" },
-      { name: "High Tea", price: "₹450/head", items: "Snacks & Beverages" }
+      { name: "Box Meal", price: "₹350+", items: "Quick & Easy" },
+      { name: "Buffet", price: "₹650+", items: "Full Spread" },
+      { name: "Executive", price: "₹950+", items: "Premium Dining" }
     ]
   },
   {
     icon: Music,
     title: "Birthday & Theme Parties",
-    desc: "Make your parties pop with our creative themed decor and food stalls. Whether it's a kids' birthday or a milestone anniversary, we bring the fun.",
-    features: ["Creative Themes", "Fun Food Stalls", "Entertainment", "Custom Cakes"],
+    desc: "Creative themed décor plus fun food stalls to make birthdays and special parties unforgettable.",
+    features: ["Creative Themes", "Fun Food Stalls", "Kids Menu", "Party Entertainment"],
     packages: [
-      { name: "Kids Party", price: "₹20,000", items: "Decor + Food for 50" },
-      { name: "Milestone", price: "₹50,000", items: "Premium Decor + Buffet" },
-      { name: "Themed", price: "Custom", items: "Tailored Experience" }
+      { name: "Kids", price: "₹20k+", items: "Fun & Games" },
+      { name: "Teen", price: "₹30k+", items: "Trend & Style" },
+      { name: "Adult", price: "₹50k+", items: "Elegant Party" }
     ]
   },
   {
     icon: Sun,
     title: "Outdoor Catering",
-    desc: "Planning a farmhouse wedding or a garden party? We bring our luxury kitchen to your location, ensuring fresh hot food anywhere.",
-    features: ["Mobile Kitchen", "All-Weather Setup", "Remote Locations", "Large Scale Capacity"],
+    desc: "Specialized service for farmhouse events, resort weddings, and garden parties.",
+    features: ["Mobile Kitchen", "Remote Capability", "Hot Food Service", "Large Capacity"],
     packages: [
-      { name: "Garden", price: "₹900/plate", items: "Open Air Setup" },
-      { name: "Resort", price: "₹1200/plate", items: "Full Service" },
-      { name: "Farmhouse", price: "₹1500/plate", items: "Luxury Setup" }
+      { name: "Garden", price: "Custom", items: "Open Air" },
+      { name: "Resort", price: "Custom", items: "Full Service" },
+      { name: "Farm", price: "Custom", items: "Rustic Luxury" }
     ]
   },
   {
     icon: Star,
     title: "Premium Buffet Setup",
-    desc: "Elevate your dining experience with our royal buffet setups featuring glass counters, golden risers, carved platters, and artistic food displays.",
-    features: ["Glass & Gold Setup", "Artistic Display", "Hygienic Service", "Grand Presentation"],
+    desc: "Glass counters, golden risers, and carved platters for a truly royal dining presentation.",
+    features: ["Glass Counters", "Golden Risers", "Carved Platters", "Artistic Display"],
     packages: [
-      { name: "Gold", price: "Included", items: "Standard Luxury Setup" },
-      { name: "Royal", price: "+₹200/head", items: "Premium Glassware & Service" },
-      { name: "Maharaja", price: "+₹500/head", items: "Silver/Gold Plated Service" }
+      { name: "Gold", price: "Included", items: "Standard Luxury" },
+      { name: "Royal", price: "Upgrade", items: "Premium Props" },
+      { name: "Maharaja", price: "Upgrade", items: "Elite Setup" }
     ]
   }
 ];

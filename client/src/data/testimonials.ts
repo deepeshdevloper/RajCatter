@@ -1,37 +1,37 @@
 export const testimonialsData = [
   {
-    name: "Priya Sharma",
+    name: "Rahul Sharma",
     role: "Wedding Client",
-    text: "Raj Catters made my wedding feel like a fairytale. The food was the talk of the town! Every dish was perfection, and the service was impeccable.",
+    text: "Raj Catters made our wedding truly magical. The food was the talk of the town, and the décor was straight out of a movie. Highly recommended!",
     location: "Bhopal",
-    eventType: "Wedding"
+    eventType: "Wedding Reception"
   },
   {
-    name: "Rahul Verma",
-    role: "Corporate Event",
-    text: "Professionalism at its best. The team handled our corporate gala flawlessly. From the presentation to the taste, everything was top-notch.",
-    location: "Indore",
+    name: "Priya Patel",
+    role: "Sangeet Host",
+    text: "The live counters were a hit! Professional team and amazing taste. They handled everything so smoothly.",
+    location: "Indore Road",
+    eventType: "Sangeet Ceremony"
+  },
+  {
+    name: "Amit Verma",
+    role: "Corporate Client",
+    text: "Impeccable service for our company's annual meet. The presentation was very professional and the food was delicious.",
+    location: "Arera Colony",
     eventType: "Corporate Gala"
   },
   {
-    name: "Amit Singh",
-    role: "Anniversary Party",
-    text: "The décor was stunning and the food was absolutely delicious. Highly recommended! They truly turned our anniversary into a royal celebration.",
-    location: "Bhopal",
-    eventType: "Anniversary"
-  },
-  {
     name: "Sneha Gupta",
-    role: "Birthday Party",
-    text: "The theme decor for my son's birthday was magical. The kids loved the live pasta counter. Thank you for making it so special!",
-    location: "Bhopal",
-    eventType: "Birthday"
+    role: "Birthday Mom",
+    text: "They transformed our backyard into a wonderland. The kids loved the pasta station. Thank you Raj Catters!",
+    location: "Kolar Road",
+    eventType: "Birthday Party"
   },
   {
-    name: "Vikram Malhotra",
-    role: "Engagement",
-    text: "We booked Raj Catters for our engagement, and it was the best decision. The team is so cooperative and managed everything smoothly.",
-    location: "Bhopal",
-    eventType: "Engagement"
+    name: "Vikram Singh",
+    role: "Anniversary Host",
+    text: "Royal experience indeed. The staff was courteous and the setup was elegant. Best caterers in Bhopal.",
+    location: "Lake View",
+    eventType: "Anniversary Dinner"
   }
 ];

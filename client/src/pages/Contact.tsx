@@ -38,14 +38,32 @@ export default function Contact() {
     },
   });
 
-  function onSubmit(values: z.infer<typeof formSchema>) {
+  async function onSubmit(values: z.infer<typeof formSchema>) {
     // Mock API submission
-    console.log(values);
-    toast({
-      title: "Message Sent Successfully!",
-      description: "We have received your inquiry and will contact you shortly.",
-    });
-    form.reset();
+    try {
+      await new Promise(resolve => setTimeout(resolve, 1500)); // Simulate network delay
+      await fetch('https://jsonplaceholder.typicode.com/posts', {
+        method: 'POST',
+        body: JSON.stringify(values),
+        headers: {
+          'Content-type': 'application/json; charset=UTF-8',
+        },
+      });
+      
+      console.log("Form Submitted:", values);
+      toast({
+        title: "Message Sent Successfully!",
+        description: "We have received your inquiry and will contact you shortly.",
+        className: "bg-primary text-black border-none"
+      });
+      form.reset();
+    } catch (error) {
+      toast({
+        title: "Something went wrong",
+        description: "Please try again later.",
+        variant: "destructive"
+      });
+    }
   }
 
   return (

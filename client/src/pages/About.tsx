@@ -32,13 +32,13 @@ export default function About() {
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-white mb-6">Our Story</h2>
             <div className="space-y-6 text-gray-300 text-lg leading-relaxed">
               <p>
-                Founded over 20 years ago, Raj Catters started as a humble family business with a singular vision: to serve food that touches the soul. What began in a small kitchen in Bhopal has now blossomed into the city's most trusted luxury catering brand.
+                For over 20 years, Raj Catters has been synonymous with culinary excellence and royal hospitality in Bhopal. What started as a small family business driven by a passion for authentic flavors has blossomed into the city's premier luxury catering service.
               </p>
               <p>
-                From intimate family gatherings of 50 guests to grand royal weddings hosting over 5000 people, we have seen it all. Our journey is defined by our passion for authentic flavors, innovative presentation, and an unyielding commitment to hospitality.
+                We have journeyed from serving intimate family gatherings to orchestrating grand weddings and corporate galas for up to 5000 guests. Our legacy is built on trust, word-of-mouth recommendations, and an unwavering commitment to quality.
               </p>
               <p>
-                Today, we are proud to be the preferred choice for Bhopal's elite, turning ordinary events into extraordinary memories through our culinary mastery and decor expertise.
+                Today, we continue to set the standard for luxury catering in Bhopal, turning ordinary events into extraordinary memories through our culinary mastery and decor expertise.
               </p>
             </div>
           </div>
@@ -64,10 +64,10 @@ export default function About() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { title: "Food is Emotion", desc: "We believe food is not just a service, but an emotion that connects people.", icon: Heart },
-              { title: "Royal Presentation", desc: "Every dish is plated with artistic precision to look as good as it tastes.", icon: Award },
-              { title: "Hygiene First", desc: "We maintain world-class hygiene standards in our kitchens and service.", icon: Clock },
-              { title: "Customization", desc: "Your event is unique, and so should be your menu. We tailor everything to you.", icon: Users },
+              { title: "Food is Emotion", desc: "We believe that food is emotion, not just a service. Every dish we serve is a testament to our dedication.", icon: Heart },
+              { title: "Royal Presentation", desc: "Our presentation is designed to be a feast for the eyes, matching the grandeur of your occasion.", icon: Award },
+              { title: "Hygiene First", desc: "We maintain a hygiene-first mindset, ensuring that safety and cleanliness are never compromised.", icon: Clock },
+              { title: "Customizable Menus", desc: "Our customizable menus allow you to curate an experience that reflects your personal taste.", icon: Users },
             ].map((item, index) => (
               <div key={index} className="bg-secondary/20 p-8 rounded-xl border border-white/5 hover:border-primary/50 transition-all duration-300 text-center group">
                 <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center mx-auto mb-6 text-primary group-hover:scale-110 transition-transform">
@@ -85,19 +85,33 @@ export default function About() {
       <section className="py-24 container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-serif font-bold text-white text-center mb-16">Meet The Experts</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {teamData.map((member, i) => (
+          {[
+            { name: "Master Chef", role: "Culinary Head", bio: "With years of experience in royal cuisines, our Master Chef ensures every dish is a masterpiece of flavor." },
+            { name: "Food Stylist", role: "Presentation Expert", bio: "Believes that we eat with our eyes first. Transforms buffets into visual feasts." },
+            { name: "Event Manager", role: "Operations Lead", bio: "Ensures flawless execution from the first guest arrival to the last farewell." },
+            { name: "Décor Designer", role: "Creative Director", bio: "Crafts the royal ambience that sets the perfect mood for your celebration." }
+          ].map((member, i) => (
             <div key={i} className="group bg-secondary/10 p-6 rounded-xl border border-white/5 hover:border-primary/30 transition-all">
               <div className="h-60 bg-gray-800 rounded-lg mb-6 overflow-hidden relative flex items-center justify-center">
                 <div className="text-gray-600 text-4xl font-serif opacity-20">PHOTO</div>
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
-                  <span className="text-primary font-medium italic">"{member.quote}"</span>
-                </div>
               </div>
               <h3 className="text-2xl font-bold text-white">{member.name}</h3>
               <p className="text-primary mb-4">{member.role}</p>
               <p className="text-sm text-gray-400">{member.bio}</p>
             </div>
           ))}
+        </div>
+        
+        <div className="mt-20 bg-secondary/20 p-10 rounded-2xl border border-white/5">
+          <h3 className="text-3xl font-serif font-bold text-white text-center mb-10">Our Promise</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
+             {["Punctual service", "Flawless execution", "High-quality ingredients", "No compromise on taste"].map((promise, i) => (
+               <div key={i} className="bg-black/40 p-6 rounded-lg border border-white/5 text-lg text-gray-200 font-medium">
+                 <span className="text-primary block text-2xl mb-2">✦</span>
+                 {promise}
+               </div>
+             ))}
+          </div>
         </div>
       </section>
     </div>
