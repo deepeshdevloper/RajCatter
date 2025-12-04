@@ -5,6 +5,7 @@ import { Progress } from "@/components/ui/progress";
 import { Button } from "@/components/ui/button";
 import MenuPlanner from "@/components/features/MenuPlanner";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import ThemeSelectorXR from "@/components/features/ThemeSelectorXR";
 
 export default function PortalDashboard() {
   return (
@@ -30,7 +31,7 @@ export default function PortalDashboard() {
             </CardHeader>
             <CardContent>
               <div className="text-2xl font-bold text-white">65%</div>
-              <Progress value={65} className="mt-2 h-2 bg-gray-800" indicatorClassName="bg-gold" />
+              <Progress value={65} className="mt-2 h-2 bg-gray-800" />
               <p className="text-xs text-gray-500 mt-2">Next: Final Menu Lock (3 Days)</p>
             </CardContent>
           </Card>
@@ -60,6 +61,7 @@ export default function PortalDashboard() {
         <Tabs defaultValue="planner" className="space-y-6">
           <TabsList className="bg-white/5 border border-white/10 p-1">
             <TabsTrigger value="planner">Menu Planner</TabsTrigger>
+            <TabsTrigger value="theme">Theme & Decor</TabsTrigger>
             <TabsTrigger value="timeline">Timeline</TabsTrigger>
             <TabsTrigger value="docs">Documents</TabsTrigger>
           </TabsList>
@@ -68,6 +70,16 @@ export default function PortalDashboard() {
             <div className="bg-black/50 p-6 rounded-xl border border-white/10">
               <h2 className="text-xl font-bold text-white mb-4">Interactive Menu Planner</h2>
               <MenuPlanner />
+            </div>
+          </TabsContent>
+
+          <TabsContent value="theme">
+            <div className="space-y-6">
+              <div className="flex justify-between items-center">
+                <h2 className="text-2xl font-serif font-bold text-white">Event Theme & Visualization</h2>
+                <p className="text-gray-400 text-sm">Visualize your decor in 3D/AR</p>
+              </div>
+              <ThemeSelectorXR />
             </div>
           </TabsContent>
           

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Button } from "@/components/ui/button";
 import heroBg from "@assets/generated_images/gourmet_indian_food_platter_with_royal_presentation..png";
 import { menuData } from "@/data/menu";
 import { useSEO } from "@/hooks/use-seo";
@@ -25,9 +26,24 @@ export default function Menu() {
           >
             Our <span className="text-primary">Menu</span>
           </motion.h1>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8">
             A culinary journey through the finest flavors of India and the world.
           </p>
+          <div className="flex gap-4 justify-center">
+            <Button 
+              onClick={() => window.location.href = "/menu/flipbook"}
+              className="bg-gold text-black hover:bg-gold/90 font-bold px-8 py-3 rounded-full text-lg"
+            >
+              View Interactive Book
+            </Button>
+            <Button 
+              onClick={() => window.location.href = "/tasting"}
+              variant="outline"
+              className="border-gold text-gold hover:bg-gold hover:text-black font-bold px-8 py-3 rounded-full text-lg"
+            >
+              Book a Tasting
+            </Button>
+          </div>
         </div>
       </div>
 

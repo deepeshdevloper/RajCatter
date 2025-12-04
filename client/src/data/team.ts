@@ -1,26 +1,26 @@
 export const teamData = [
   {
-    name: "Sanjeev Kapoor", // Placeholder name
+    name: "Sanjeev Kapoor",
     role: "Master Chef",
-    bio: "With over 25 years of culinary experience, Chef Sanjeev brings authentic flavors and innovative techniques to our kitchen. His signature dishes are the heart of Raj Catters.",
-    quote: "Cooking is an art, but serving is a passion."
+    bio: "With over 25 years of culinary expertise, Chef Sanjeev leads our kitchen with passion and precision.",
+    quote: "Cooking is an art, but feeding is a blessing."
   },
   {
-    name: "Anjali Mehra",
-    role: "Food Stylist",
-    bio: "Anjali ensures that every dish looks as good as it tastes. Her eye for detail transforms a simple meal into a visual masterpiece.",
-    quote: "We eat with our eyes first."
-  },
-  {
-    name: "Rajesh Kumar",
+    name: "Priya Singh",
     role: "Event Manager",
-    bio: "The backbone of our operations, Rajesh ensures that every event runs like clockwork. His logistical expertise guarantees a stress-free experience for you.",
-    quote: "Perfection is in the details."
+    bio: "Priya ensures that every event runs seamlessly, from the first guest arrival to the last farewell.",
+    quote: "Details make perfection, and perfection is not a detail."
   },
   {
-    name: "Simran Kaur",
+    name: "Rahul Verma",
+    role: "Food Stylist",
+    bio: "Believes that we eat with our eyes first. Rahul transforms buffets into visual feasts.",
+    quote: "Presentation is the silent ambassador of your brand."
+  },
+  {
+    name: "Amit Patel",
     role: "Décor Designer",
-    bio: "Simran's creative vision turns empty spaces into dream venues. She specializes in thematic and floral decor that leaves guests in awe.",
-    quote: "Design is the silent ambassador of your brand."
+    bio: "Crafts the royal ambience that sets the perfect mood for your celebration.",
+    quote: "Design is not just what it looks like, it's how it feels."
   }
 ];

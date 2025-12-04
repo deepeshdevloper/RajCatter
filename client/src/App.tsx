@@ -21,6 +21,7 @@ import Contact from "@/pages/Contact";
 import Tasting from "@/pages/Tasting";
 import PortalAuth from "@/pages/PortalAuth";
 import PortalDashboard from "@/pages/PortalDashboard";
+import DigitalMenuFlipbook from "@/pages/DigitalMenuFlipbook";
 
 function Router() {
   return (
@@ -30,6 +31,7 @@ function Router() {
         <Route path="/about" component={About} />
         <Route path="/services" component={Services} />
         <Route path="/menu" component={Menu} />
+        <Route path="/menu/flipbook" component={DigitalMenuFlipbook} />
         <Route path="/gallery" component={Gallery} />
         <Route path="/contact" component={Contact} />
         <Route path="/tasting" component={Tasting} />
