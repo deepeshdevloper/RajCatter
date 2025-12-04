@@ -1,0 +1,24 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About Us",
+    "menu": "Menu",
+    "services": "Services",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "book": "Book Now"
+  },
+  "hero": {
+    "title": "Luxury Catering That Turns Every Celebration Into a Royal Experience",
+    "subtitle": "Serving unforgettable food, flawless décor & seamless event management.",
+    "explore": "Explore Menu",
+    "book_event": "Book Your Event"
+  },
+  "sections": {
+    "about_title": "A Legacy of Royal Flavors",
+    "services_title": "Our Premium Services",
+    "menu_title": "A Taste of Royalty",
+    "testimonials_title": "What Our Guests Say",
+    "themes_title": "Featured Event Themes"
+  }
+}

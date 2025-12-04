@@ -1,0 +1,170 @@
+REPLIT AI / CODE GENERATOR PROMPT
+--------------------------------
+Project: Raj Catters – Luxury Catering (Production-ready React + Tailwind CSS website)
+Brand tagline: "Luxury Catering that turns every celebration into a royal experience ✨🌟"
+Location: Bhopal
+Phones: 7999859833, 9229658667
+
+GOAL
+----
+Generate a complete, production-ready React app (Vite recommended) styled with Tailwind CSS that looks ultra-premium (black & gold royal theme), fully responsive, accessible, SEO-friendly, and includes full written content for all pages, plus the interactive features described below.
+
+TECH STACK & TOOLS
+------------------
+- React (latest stable)
+- Vite (recommended) or Create React App
+- Tailwind CSS (configured)
+- React Router for multi-page routing
+- Framer Motion or AOS for animations (include both where appropriate)
+- Headless UI / shadcn components optional for accessible UI primitives
+- Optional: React Hook Form for forms, axios/fetch for data
+- Build & production scripts (npm run build, preview)
+- README with setup, run, and build instructions
+
+
+
+DESIGN & THEME
+--------------
+- Primary palette: Black (#000000) + Gold accents (e.g., #C59A4B or #D4AF37)
+- Secondary: warm neutrals for text and card backgrounds
+- Use glassmorphism cards with subtle backdrops and soft blur
+- Large serif headings (e.g., Playfair Display / Cinzel) + clean sans-serif body (e.g., Inter)
+- Smooth parallax hero, subtle particle/glow effects, gold-accent hover states
+- Provide placeholder high-resolution images and a short hero video placeholder path (assets/hero.mp4)
+
+PAGES & COMPLETE CONTENT (write the actual text for each section)
+-----------------------------------------------------------------
+
+1) HOME (Full content)
+- Hero:
+  Title: "Luxury Catering That Turns Every Celebration Into a Royal Experience ✨🌟"
+  Subtitle: "Serving unforgettable food, flawless décor & seamless event management."
+  CTA buttons: [Explore Menu] [Book Your Event]
+  Microcopy: "Bhopal | 7999859833 | 9229658667"
+- Short About Summary (2–3 sentences) introducing Raj Catters with legacy, scope, and promise.
+- Services Preview: 6 cards (Luxury Catering, Wedding Decoration, Event Organising, Live Food Counters, Premium Buffet Setup, Theme-Based Catering) — each with 2–3 sentence descriptions.
+- Signature Experience: cinematic paragraph describing expert chefs, hygienic kitchens, premium presentation, and "5000+ events served".
+- Featured Event Themes: small copy about Wedding, Haldi, Sangeet, Birthday, Corporate, Baby Shower, Anniversary.
+- Menu Highlights: short intros and sample items across Indian Royal Menu, Mughlai Special, Continental, South Indian, Snacks & Chaat, Desserts, Beverages.
+- Testimonials: 5 premium testimonials (full text, author, event type, location).
+- CTA Block: "Plan your event with Raj Catters" with WhatsApp & Call buttons and microcopy about 24×7 support.
+
+2) ABOUT (Full content)
+- Our Story (well-written SEO-rich narrative; 250–350 words) covering:
+  • 20+ years of legacy
+  • Family business roots
+  • Growth into Bhopal's trusted luxury caterers
+  • Passion for food & décor, serving 50–5000 guests
+- Our Philosophy (200–300 words)
+  • "Food is emotion, not service"
+  • Royal presentation, hygiene-first, customizable menus
+- Our Team: 4 profiles (Master Chef, Food Stylist, Event Manager, Décor Designer) — 3–4 sentence bios each, skills, and a signature quote.
+- Our Promise: bullet list + supportive paragraph (punctuality, flawless execution, quality ingredients, no compromise on taste)
+
+3) SERVICES (Full content)
+- For each service (Luxury Catering, Wedding Decoration, Complete Event Organising, Live Food Counters, Corporate Catering, Birthday & Theme Parties, Outdoor Catering, Premium Buffet Setup) provide 2–4 paragraphs explaining:
+  • What the service includes
+  • Why it's premium / differentiator
+  • Typical delivery & logistics notes
+  • Example use-cases & sample packages
+
+4) MENU (Full content – data-driven)
+- Provide a comprehensive, luxury menu with itemized lists and descriptions for each category:
+  • Royal Indian Menu — 12–20 items (paneer varieties, biryanis, kebabs, dals, rotis)
+  • Mughlai Special — 8–12 items with rich descriptions (Nawabi gravies, kebabs)
+  • Continental — 10–15 items (pastas, mains, sides)
+  • South Indian — 8–12 items (dosa varieties, idli, pongal)
+  • Snacks & Starters — 12–20 items (veg & non-veg)
+  • Live Counters — include Dosa live, Chaat live, Pasta live, Tandoor live, Jalebi live (each with short operational notes)
+  • Desserts Paradise — 10–15 items (gulab jamun, rasmalai, brownies, ice cream stations)
+  • Beverages & Mocktails — 10–15 items (Virgin Mojito, Fresh Lime, Fresh Juices, Tea & Coffee)
+- Each menu item: name + 1-line description + recommended serving suggestion
+- Export menuData.js as an array of objects to drive MenuList component.
+
+5) GALLERY (Full content + placeholders)
+- Category sections: Wedding décor, Buffet setup, Live counters, Birthday themes, Corporate events, Venue designs
+- Provide 4–8 placeholder images per category, sample captions, and alt text for accessibility.
+- Implement lightbox fullscreen view, category filtering, and lazy-loading.
+
+6) CONTACT (Full content)
+- Contact details:
+  Raj Catters – Luxury Catering, Bhopal
+  Phone: 7999859833 / 9229658667
+  Working Hours: 24x7 Support
+- Warm invitation paragraph (bookings & tasting sessions): 3–4 sentences
+- Booking/Contact form fields: Name, Phone, Email (optional), Event Type, Guest Count, Date, Venue, Message
+- Form behavior:
+  • Validate inputs (React Hook Form)
+  • On submit: show animated success UI and send data to a mock API endpoint (provide fetch/axios stub). Also offer sample serverless function snippet (Netlify/AWS Lambda/Vercel) to persist submissions to an email or sheet.
+  • Optionally generate downloadable Quote PDF (QuotePDFGenerator.jsx) based on selections.
+- Map integration:
+  • Provide component ContactMap.jsx that embeds a Google Maps iframe with placeholder coordinates for Bhopal and a fallback static image.
+
+7) FOOTER (Full content)
+- Navigation links: Home, About, Menu, Services, Gallery, Contact
+- Contact quick: Phones, WhatsApp link, address
+- Social icons (Facebook, Instagram, YouTube)
+- Copyright & designer credit: "Designed for Raj Catters – Luxury Catering, Bhopal"
+- Small legal disclaimers & privacy text (short)
+
+FEATURES & FUNCTIONALITY (implement)
+------------------------------------
+- Responsive layout for desktop, tablet, mobile
+- Dynamic routing with React Router
+- Data-driven components: menu, services, testimonials, gallery driven from /src/data
+- Reusable UI components and design tokens (spacing, colors, typography)
+- Smooth animations: hero parallax, fade-in, card hover, gallery transitions (use Framer Motion/AOS)
+- Floating WhatsApp button with templated message: "Hi Raj Catters, I want catering services for my event. Details: [Event Type] [Date] [Guest Count]"
+- Click-to-call on mobile for phone numbers
+- SEO meta tags per page (title, description, Open Graph)
+- Accessibility: alt text, ARIA labels for interactive elements, keyboard nav for gallery & sliders
+- Image optimization: use <picture> / srcset placeholders, lazy loading
+- Performance best practices (defer non-critical scripts)
+- Commented code, clean structure, and modular CSS via Tailwind utilities
+- Provide a /public/_redirects or netlify/edge config example if needed
+- Provide sample .env.example for Google Maps API key (if dynamic map)
+- Provide a README with deployment steps (Vercel/Netlify), environment variables, and how to replace placeholder assets
+
+CONTENT SPECIFICS (exact instructions for content)
+------------------------------------------------
+- Write actual marketing copy, not placeholders — use royalty-oriented tone, SEO-friendly headings, and natural keywords: "Luxury catering in Bhopal", "royal wedding caterers Bhopal", "premium event decoration", etc.
+- Generate 5 polished testimonials, each with a name, short quote, event type, and city.
+- Generate team bios (Master Chef, Food Stylist, Event Manager, Décor Designer) with photo placeholder references.
+- For the menu: generate 10–25 items per major category where requested, with mouth-watering descriptions.
+- For Services: include a "Sample Packages" subsection for each service (Bronze / Silver / Gold / Platinum) with estimated guest counts and starting price placeholders (e.g., "Starting from ₹XX per plate") so the user can replace with actual prices.
+
+DELIVERABLES
+------------
+- Complete React project (files & folders) with working routing and components
+- All pages fully authored with written content
+- README.md with setup instructions:
+  • npm install
+  • npm run dev
+  • npm run build
+  • Environment variables required
+  • How to replace images/video
+  • How to deploy to Vercel/Netlify
+- Provide a short "How to customize" section in README explaining where theme colors, logo, phone numbers, and content live (e.g., src/data/contact.js)
+- Provide sample build output and verification steps
+
+EXTRA (nice-to-have)
+--------------------
+- Optional admin preview page to toggle themes (dark/gold vs pastel) and swap hero video/image
+- Quote generator component that exports a basic PDF quote (client-side generation)
+- Simple CMS stub: JSON files in /src/data that can be swapped out with headless CMS later
+- Unit tests for a few critical components (basic)
+
+NON-FUNCTIONAL REQUIREMENTS
+---------------------------
+- Keep code well-commented for maintainability
+- No external paid libraries required (open-source only)
+- Keep bundle size reasonable; import icons modularly
+- Use Tailwind utilities; minimal custom CSS
+- Everything should be ready to run locally right after "npm install" and "npm run dev"
+
+FINAL INSTRUCTION FOR THE CODE-GENERATOR
+---------------------------------------
+Produce the full project now. Write all React components, route structure, Tailwind config, sample assets (placeholder images & hero video), full written content for every page & component, example data files, and README exactly as defined. Ensure forms have working client-side validation and a clear stub to send form data to a backend. Comment any complex logic and include instructions for deployment and customization.
+
+END OF PROMPT
+------------

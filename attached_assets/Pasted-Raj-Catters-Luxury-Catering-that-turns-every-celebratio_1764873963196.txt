@@ -1,0 +1,354 @@
+Raj Catters – Luxury Catering that turns every celebration into a royal experience ✨🌟
+
+Bhopal | 7999859833 | 9229658667
+
+👉 COPY–PASTE this entire prompt into Replit AI
+
+🚀 REPLIT AI — FULL PROJECT GENERATION PROMPT
+
+Create a complete, production-ready React + Tailwind CSS website for:
+
+Brand Name: Raj Catters
+Tagline: Luxury Catering that turns every celebration into a royal experience ✨🌟
+Location: Bhopal
+Phone: 7999859833, 9229658667
+
+The final site must look ultra-premium, royal, black & gold themed, and include full content writing for every page. 🎨 DESIGN REQUIREMENTS
+
+Use:
+
+Tailwind CSS
+
+Black + Gold Royal Theme
+
+Glassmorphism cards
+
+Smooth parallax & fade-in animations
+
+Modern serif fonts for headings
+
+Aesthetic layout with large images
+
+Fully responsive
+
+Super polished UI
+
+Overall feeling = 5-star luxury catering brand.
+
+🌐 CREATE THESE PAGES + FULL CONTENT
+
+You must write complete content for each page:
+
+1️⃣ HOME PAGE (Full Content)
+Hero Section
+
+Background: luxury catering video or image
+
+Title: "Luxury Catering That Turns Every Celebration Into a Royal Experience ✨🌟"
+
+Subtitle: “Serving unforgettable food, flawless décor & seamless event management.”
+
+Buttons: Explore Menu, Book Your Event
+
+About Summary (Short)
+
+Royal introduction about Raj Catters (detailed content provided below in About page section).
+
+Services Preview
+
+Show 6 main services with icons + content:
+
+Luxury Catering
+
+Wedding Decoration
+
+Event Organising
+
+Live Food Counters
+
+Premium Buffet Setup
+
+Theme-Based Catering
+
+Signature Experience Section
+
+A cinematic section explaining:
+
+Expert chefs
+
+Hygienic kitchen
+
+Premium presentation
+
+5000+ events served
+
+Royal décor styling
+
+Featured Event Themes
+
+Show categories:
+
+Wedding
+
+Haldi
+
+Sangeet
+
+Birthday
+
+Corporate
+
+Baby Shower
+
+Anniversary Menu Highlights
+
+Sections with sample dishes:
+
+Indian Royal Menu
+
+Mughlai Special
+
+Continental
+
+South Indian
+
+Snacks & Chaat
+
+Desserts
+
+Beverages
+
+Testimonials Carousel
+
+Write 5 premium testimonials.
+
+CTA Block
+
+“Plan your event with Raj Catters”
+Buttons → WhatsApp & Call
+
+2️⃣ ABOUT US PAGE (Full Content)
+Write high-quality, SEO-rich content:
+SECTION 1 – Our Story
+
+Write a beautiful story text:
+
+20+ years of legacy
+
+Started as a small family business
+
+Grew into Bhopal’s most trusted luxury caterers
+
+Passion for food + décor
+
+Serving 50 to 5000 guests
+
+SECTION 2 – Our Philosophy
+
+Explain:
+
+“Food is emotion, not service”
+
+Royal presentation
+
+Hygiene-first mindset
+
+Customizable menus
+
+SECTION 3 – Our Team
+
+Write profiles for:
+
+Master Chef
+
+Food Stylist
+
+Event Manager
+
+Décor Designer
+
+SECTION 4 – Our Promise
+
+Punctual service
+
+Flawless execution
+
+High-quality ingredients
+
+No compromise on taste
+
+3️⃣ SERVICES PAGE (Full Content)
+
+Provide detailed descriptions for each:
+
+Luxury Catering
+
+A royal catering experience with multi-cuisine menus.
+
+Wedding Decoration
+
+Mandap, stage, entry gate, photo booth, flower décor, lighting.
+
+Complete Event Organising
+
+From planning to execution.
+
+Live Food Counters Dosa, pasta, chaat, Chinese, BBQ, tandoor, dessert live stations.
+
+Corporate Catering
+
+Professional buffet, seminars, events, conferences.
+
+Birthday & Theme Parties
+
+Themed décor + creative food stalls.
+
+Outdoor Catering
+
+Farmhouse events, resort weddings, garden parties.
+
+Premium Buffet Setup
+
+Glass counters, golden risers, carved platters.
+
+(Write full paragraphs for each)
+
+4️⃣ MENU PAGE (Full Content)
+
+Write a complete luxury menu with categories listed below:
+
+Royal Indian Menu
+
+Paneer varieties, kebabs, dal, biryani, pulao, roti, sabzi.
+
+Mughlai Special
+
+Nawabi delicacies, kebabs, curries.
+
+Continental
+
+Pasta, garlic bread, salads, sautéed vegetables.
+
+South Indian
+
+Dosa, idli, vada, pongal.
+
+Snacks & Starters
+
+Veg & non-veg options.
+
+Live Counters
+
+Dosa live
+Chaat live
+Pasta live
+Tandoor live
+Jalebi live
+
+Desserts Paradise
+
+Gulab jamun
+Rasmalai
+Brownies
+Ice cream counter
+
+Beverages & Mocktails
+
+Virgin mojito
+Blue lagoon
+Fresh lime
+Tea & coffee stall
+
+For each section: write 10–30 items + descriptions.
+
+5️⃣ GALLERY PAGE
+
+Create a dynamic gallery with categories:
+
+Wedding décor
+
+Buffet setup
+
+Live counters
+
+Birthday themes
+
+Corporate events
+
+Venue designs
+
+Use placeholder images. 6️⃣ CONTACT PAGE (Full Content)
+Contact Details
+
+Phone: 7999859833 / 9229658667
+
+City: Bhopal
+
+Working Hours: 24×7 Support
+
+Short paragraph
+
+Write a warm invitation message for booking.
+
+Contact Form Fields
+
+Name
+
+Phone
+
+Event Type
+
+Guest Count
+
+Date
+
+Message
+
+Map Integration
+
+Use embedded Google map.
+
+7️⃣ FOOTER CONTENT
+
+Include full footer content:
+
+Home
+
+About
+
+Menu
+
+Services
+
+Gallery
+
+Contact
+
+Phone & WhatsApp
+
+Social icons
+
+Copyright
+
+“Designed for Raj Catters – Luxury Catering, Bhopal”
+
+🛠️ FUNCTIONALITY REQUIREMENTS
+
+Add animations (AOS, framer-motion, or Tailwind animations)
+
+Mobile friendly
+
+Data-driven components
+
+Reusable UI components
+
+Clean code
+
+SEO meta tags
+
+High-quality layout
+
+📌 FINAL INSTRUCTION
+
+Generate the complete React + Tailwind project with all pages, routing, components, styling, and full written content exactly as described.
+Make the website look extremely premium, elegant, and royal.
